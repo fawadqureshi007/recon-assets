@@ -1,6 +1,5 @@
 # RECON-ASSETS
 ---
-
 ## Usage
 
 Example command to run the script:
