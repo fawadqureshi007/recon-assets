@@ -1,33 +1,29 @@
-# RECON-ASSETS
----
-## Usage
+CipherPhantom
 
-Example command to run the script:
+CipherPhantom is an asynchronous subdomain enumeration tool combining brute-force, API sources, CRT.sh, and Shodan. It outputs live subdomains with IP resolution and threat intelligence information.
 
-```bash
-python3 cipherphantom.py example.com --wordlist /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-20000.txt --api --crtsh --shodan -oT results.txt -oJ results.json
+Features
 
-```
+Async DNS resolution using Cloudflare (1.1.1.1, 1.0.0.1)
 
----
+Brute-force subdomain enumeration via custom wordlists
 
-## Folder Structure
+API integrations for enhanced results:
 
-```
-<repo-name>/
-├── scripts/
-├── wordlists/
-├── .env.example
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
+VirusTotal – Retrieve subdomains and reputation
 
----
+SecurityTrails – Historical and live subdomains
 
-## Disclaimer
+AlienVault OTX – Passive DNS and threat intelligence
 
-* Educational purposes only
-* Never target unauthorized systems
+CRT.sh support for historical subdomains
 
----
+Shodan queries for public IPs (ports, OS, vulnerabilities)
+
+Duplicate filtering by IP
+
+Export results in TXT and JSON formats
+
+Installation
+
+Clone the repository:
