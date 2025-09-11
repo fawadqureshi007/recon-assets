@@ -1,0 +1,21 @@
+```
+aiohttp==3.8.5
+aiodns==3.0.0
+python-dotenv==1.0.1
+shodan==1.24.0
+```
+
+✅ **Why these versions:**
+
+* `aiohttp==3.8.5` → latest stable version compatible with Python 3.9+ for async HTTP requests.
+* `aiodns==3.0.0` → stable for async DNS resolution.
+* `python-dotenv==1.0.1` → latest minor release for loading environment variables.
+* `shodan==1.24.0` → works with the official Shodan API wrapper.
+
+**Installation command for users:**
+
+```bash
+pip install -r requirements.txt
+```
+
+This ensures your tool runs without missing dependencies or breaking due to updates.
