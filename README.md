@@ -5,7 +5,8 @@
 Example command to run the script:
 
 ```bash
-python scripts/cipherphantom.py --target example.com --wordlist wordlists/subdomains-top1million-20000.txt
+python3 cipherphantom.py example.com --wordlist /usr/share/wordlists/seclists/Discovery/DNS/subdomains-top1million-20000.txt --api --crtsh --shodan -oT results.txt -oJ results.json
+
 ```
 
 ---
